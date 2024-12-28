@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: orange;
+}
+
+/* .cell:hover {
+    background-color: #f0f0f0;
+}
+
+.cell.taken {
+    cursor: not-allowed;
+} */
+
+.status {
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+}
+
+ .restartButton {
+    background-color: rgb(102, 255, 0);
+    
+    
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} 
+
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+.playerName {
+    width: 300px;
+    height: auto;
+
+
+}
+.playerName > input {
+    
+    height: 25px;
+}
+.fplayer {
+    margin-bottom: 5px;
+}
+.splayer {
+    margin-bottom: 5px;
+}
+.winner {
+    margin-bottom: 5px;
+}
+
+.congra{
+    
+    align-items: center;
+    
+}
+.playagain {
+    
+    width: 150px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 300;
+
+}
+.playagain span {
+    font-weight: 600;
+}
+.congra h1 {
+    font-weight: 700;
+}

@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import TicTacToe from './components/TicTacToe';
 
 function App() {
   return (
-    <><h1><center>hello utsav</center></h1></>
+    <TicTacToe/>
+    
   );
 }
 
